@@ -1,0 +1,1075 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Login functionality for Demo_Web_Shop.",
+        "description": "",
+        "id": "tricentis-demo-web-shop;login-functionality-for-demo-web-shop.",
+        "after": [
+          {
+            "result": {
+              "duration": 98604900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7478497800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1583684800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1025500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login should be successful",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LoginPass"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Search for a product under Computers and add the first item to the cart",
+        "description": "",
+        "id": "tricentis-demo-web-shop;search-for-a-product-under-computers-and-add-the-first-item-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 107851200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6710365300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1626188900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9299475900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user hovers on Computers category and Clicks on Desktops",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_hovers_on_Computers_category_and_Clicks_on_Desktops()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2820883800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on Add to Cart for the first desktop",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_first_desktop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034507000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to add the same item into cart and get confirmation message",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_be_able_to_add_the_same_item_into_cart_and_get_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@HoverSearch1"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Search for product without entering any value in search bar",
+        "description": "",
+        "id": "tricentis-demo-web-shop;search-for-product-without-entering-any-value-in-search-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 4145116300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6807459400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1742887600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to serach bar",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72740600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user leaves the search bar empty and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_leaves_the_search_bar_empty_and_clicks_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2019532400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should get the popup saying Please enter some search keyword",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_get_the_popup_saying_Please_enter_some_search_keyword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@HoverSearch"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Search for a product from search bar and add to cart",
+        "description": "",
+        "id": "tricentis-demo-web-shop;search-for-a-product-from-search-bar-and-add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 92364000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6601828000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1639014200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2933788000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88705400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2298218100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@EnterKey"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Removing item from shopping cart",
+        "description": "",
+        "id": "tricentis-demo-web-shop;removing-item-from-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 81160700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6630829700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1664437400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2972898500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61970000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2513502400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703787600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user navigates to the shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigation_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78448000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user checks the checkbox of the product which is not required and click on update shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_checks_the_checkbox_of_the_product_which_is_not_required_and_click_on_update_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 788887300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user should be able to remove the product selected from the cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_be_able_to_remove_the_product_selected_from_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Remove"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Failing to check out by not agreeing the terms of service",
+        "description": "",
+        "id": "tricentis-demo-web-shop;failing-to-check-out-by-not-agreeing-the-terms-of-service",
+        "after": [
+          {
+            "result": {
+              "duration": 114199700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6999887800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1899250300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2942783100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75404600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2262548900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 630610900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user navigates to the shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigation_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86558400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user clicks checkout button without checking the Terms of Service checkbox",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_checkout_button_without_checking_the_Terms_of_Service_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32093300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user should get popup saying Please accept the Terms of Service before the next step",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_get_popup_saying_Please_accept_the_Terms_of_Service_before_the_next_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@CheckoutFail"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Checking out from shopping cart page",
+        "description": "",
+        "id": "tricentis-demo-web-shop;checking-out-from-shopping-cart-page",
+        "after": [
+          {
+            "result": {
+              "duration": 64191800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6728400300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1775650000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3297265400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79762700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2132415300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 629585000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user navigates to the shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigation_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1496190000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user checks the checkbox to agree terms of service and clicks on checkout button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_selects_the_country_state_and_checks_the_checkbox_to_agree_terms_of_service_and_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28379000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user should be able to navigate to payment page",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_be_able_to_navigate_to_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@CheckoutPass"
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "Failed payment by leaving the credit card number field empty",
+        "description": "",
+        "id": "tricentis-demo-web-shop;failed-payment-by-leaving-the-credit-card-number-field-empty",
+        "after": [
+          {
+            "result": {
+              "duration": 89837900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6753724500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1695118500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2954314100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92148500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2238310900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 849912300,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user navigates to the shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigation_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1428380500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user checks the checkbox to agree terms of service and clicks on checkout button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_selects_the_country_state_and_checks_the_checkbox_to_agree_terms_of_service_and_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29249000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user should be able to navigate to payment page",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_be_able_to_navigate_to_payment_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 833186300,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user navigates to payment page and enters valid billing address, shipping address, shipping method and payment method as Credit card",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_opts_CreditCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1084665000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "user leaves the credit card number field empty and clicks continue button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_enters_the_billing_address_shipping_address_shipping_method_payment_method_payment_information_and_clicks_on_confirm_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2036275600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user should get the error message saying Wrong card number",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_get_the_message_saying_Wrong_card_number()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PaymentFail"
+          }
+        ]
+      },
+      {
+        "line": 84,
+        "name": "Successfull payment",
+        "description": "",
+        "id": "tricentis-demo-web-shop;successfull-payment",
+        "after": [
+          {
+            "result": {
+              "duration": 72752700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6654316500,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1710281200,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2934185600,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user navigates to serach  bar, enters the required product and clicks on search button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_serach_bar_enters_the_required_product_and_clicks_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100152300,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user  clicks on Add to Cart for the first jewellry",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_on_Add_to_Cart_for_the_firstitem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5830340700,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user should get notification",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_gets_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691622500,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "user navigates to the shopping cart",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigation_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1510234600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "user checks the checkbox to agree terms of service and clicks on checkout button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_selects_the_country_state_and_checks_the_checkbox_to_agree_terms_of_service_and_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39018500,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "user should be able to navigate to payment page",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_be_able_to_navigate_to_payment_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 923088600,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user navigates to payment page and enters valid billing address, shipping address, shipping method and payment method as Credit card",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_opts_CreditCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1270854600,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "user leaves the credit card number field empty and clicks continue button",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_enters_the_billing_address_shipping_address_shipping_method_payment_method_payment_information_and_clicks_on_confirm_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2112143900,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "user navigates to payment page",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_payment_page_and_enters_valid_Credit_card_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62982900,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "user enters valid creditcard number",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_clicks_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2366596200,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user should be able to book the item and see the confirmation message",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_should_get_the_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PaymentPass"
+          }
+        ]
+      }
+    ],
+    "name": "Tricentis Demo Web Shop",
+    "description": "",
+    "id": "tricentis-demo-web-shop",
+    "keyword": "Feature",
+    "uri": "feature/tricentis.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
